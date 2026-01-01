@@ -5,8 +5,8 @@ const app = express();
 const port = 2000;
 
 app.use(express.urlencoded({extended:true}));
-
-mongoose.connect('mongodb+srv://tayyab:tayyab786@cluster0.btpgetj.mongodb.net/', {
+//Use Your Mongo db link user name and password
+mongoose.connect('Please Use Mongo DataBase Link', {
     dbName: 'project1'
 }).then(()=>{
     console.log(('Connected to MongoDB'));
